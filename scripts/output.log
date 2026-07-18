@@ -1,0 +1,970 @@
+
+> sharkdom.com@0.8.0 download:bootcamp
+> node scripts/download-bootcamp-assets.js
+
+Starting request for b272d81c1c8f571d7d6aa6ab6f579e767e296ea2.svg...
+Error requesting b272d81c1c8f571d7d6aa6ab6f579e767e296ea2.svg: AggregateError [EPERM]: 
+    at internalConnectMultiple (node:net:1193:18)
+    at internalConnectMultiple (node:net:1269:5)
+    at internalConnectMultiple (node:net:1269:5)
+    at defaultTriggerAsyncIdScope (node:internal/async_hooks:473:12)
+    at GetAddrInfoReqWrap.emitLookup [as callback] (node:net:1611:7)
+    at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:133:8) {
+  code: 'EPERM',
+  [errors]: [
+    Error: connect EPERM ::1:3845 - Local (:::0)
+        at internalConnectMultiple (node:net:1265:16)
+        at defaultTriggerAsyncIdScope (node:internal/async_hooks:473:12)
+        at GetAddrInfoReqWrap.emitLookup [as callback] (node:net:1611:7)
+        at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:133:8) {
+      errno: -1,
+      code: 'EPERM',
+      syscall: 'connect',
+      address: '::1',
+      port: 3845
+    },
+    Error: connect EPERM 127.0.0.1:3845 - Local (0.0.0.0:0)
+        at internalConnectMultiple (node:net:1265:16)
+        at internalConnectMultiple (node:net:1269:5)
+        at defaultTriggerAsyncIdScope (node:internal/async_hooks:473:12)
+        at GetAddrInfoReqWrap.emitLookup [as callback] (node:net:1611:7)
+        at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:133:8) {
+      errno: -1,
+      code: 'EPERM',
+      syscall: 'connect',
+      address: '127.0.0.1',
+      port: 3845
+    }
+  ]
+}
+Caught error for b272d81c1c8f571d7d6aa6ab6f579e767e296ea2.svg: AggregateError [EPERM]: 
+    at internalConnectMultiple (node:net:1193:18)
+    at internalConnectMultiple (node:net:1269:5)
+    at internalConnectMultiple (node:net:1269:5)
+    at defaultTriggerAsyncIdScope (node:internal/async_hooks:473:12)
+    at GetAddrInfoReqWrap.emitLookup [as callback] (node:net:1611:7)
+    at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:133:8) {
+  code: 'EPERM',
+  [errors]: [
+    Error: connect EPERM ::1:3845 - Local (:::0)
+        at internalConnectMultiple (node:net:1265:16)
+        at defaultTriggerAsyncIdScope (node:internal/async_hooks:473:12)
+        at GetAddrInfoReqWrap.emitLookup [as callback] (node:net:1611:7)
+        at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:133:8) {
+      errno: -1,
+      code: 'EPERM',
+      syscall: 'connect',
+      address: '::1',
+      port: 3845
+    },
+    Error: connect EPERM 127.0.0.1:3845 - Local (0.0.0.0:0)
+        at internalConnectMultiple (node:net:1265:16)
+        at internalConnectMultiple (node:net:1269:5)
+        at defaultTriggerAsyncIdScope (node:internal/async_hooks:473:12)
+        at GetAddrInfoReqWrap.emitLookup [as callback] (node:net:1611:7)
+        at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:133:8) {
+      errno: -1,
+      code: 'EPERM',
+      syscall: 'connect',
+      address: '127.0.0.1',
+      port: 3845
+    }
+  ]
+}
+Starting request for c7d10247ffd7b278251c8719abc85545783a9882.svg...
+Error requesting c7d10247ffd7b278251c8719abc85545783a9882.svg: AggregateError [EPERM]: 
+    at internalConnectMultiple (node:net:1193:18)
+    at internalConnectMultiple (node:net:1269:5)
+    at internalConnectMultiple (node:net:1269:5)
+    at defaultTriggerAsyncIdScope (node:internal/async_hooks:473:12)
+    at GetAddrInfoReqWrap.emitLookup [as callback] (node:net:1611:7)
+    at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:133:8) {
+  code: 'EPERM',
+  [errors]: [
+    Error: connect EPERM ::1:3845 - Local (:::0)
+        at internalConnectMultiple (node:net:1265:16)
+        at defaultTriggerAsyncIdScope (node:internal/async_hooks:473:12)
+        at GetAddrInfoReqWrap.emitLookup [as callback] (node:net:1611:7)
+        at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:133:8) {
+      errno: -1,
+      code: 'EPERM',
+      syscall: 'connect',
+      address: '::1',
+      port: 3845
+    },
+    Error: connect EPERM 127.0.0.1:3845 - Local (0.0.0.0:0)
+        at internalConnectMultiple (node:net:1265:16)
+        at internalConnectMultiple (node:net:1269:5)
+        at defaultTriggerAsyncIdScope (node:internal/async_hooks:473:12)
+        at GetAddrInfoReqWrap.emitLookup [as callback] (node:net:1611:7)
+        at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:133:8) {
+      errno: -1,
+      code: 'EPERM',
+      syscall: 'connect',
+      address: '127.0.0.1',
+      port: 3845
+    }
+  ]
+}
+Caught error for c7d10247ffd7b278251c8719abc85545783a9882.svg: AggregateError [EPERM]: 
+    at internalConnectMultiple (node:net:1193:18)
+    at internalConnectMultiple (node:net:1269:5)
+    at internalConnectMultiple (node:net:1269:5)
+    at defaultTriggerAsyncIdScope (node:internal/async_hooks:473:12)
+    at GetAddrInfoReqWrap.emitLookup [as callback] (node:net:1611:7)
+    at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:133:8) {
+  code: 'EPERM',
+  [errors]: [
+    Error: connect EPERM ::1:3845 - Local (:::0)
+        at internalConnectMultiple (node:net:1265:16)
+        at defaultTriggerAsyncIdScope (node:internal/async_hooks:473:12)
+        at GetAddrInfoReqWrap.emitLookup [as callback] (node:net:1611:7)
+        at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:133:8) {
+      errno: -1,
+      code: 'EPERM',
+      syscall: 'connect',
+      address: '::1',
+      port: 3845
+    },
+    Error: connect EPERM 127.0.0.1:3845 - Local (0.0.0.0:0)
+        at internalConnectMultiple (node:net:1265:16)
+        at internalConnectMultiple (node:net:1269:5)
+        at defaultTriggerAsyncIdScope (node:internal/async_hooks:473:12)
+        at GetAddrInfoReqWrap.emitLookup [as callback] (node:net:1611:7)
+        at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:133:8) {
+      errno: -1,
+      code: 'EPERM',
+      syscall: 'connect',
+      address: '127.0.0.1',
+      port: 3845
+    }
+  ]
+}
+Starting request for 2101b12de10c91826307fa33b6e8bb50d8912a7f.svg...
+Error requesting 2101b12de10c91826307fa33b6e8bb50d8912a7f.svg: AggregateError [EPERM]: 
+    at internalConnectMultiple (node:net:1193:18)
+    at internalConnectMultiple (node:net:1269:5)
+    at internalConnectMultiple (node:net:1269:5)
+    at defaultTriggerAsyncIdScope (node:internal/async_hooks:473:12)
+    at GetAddrInfoReqWrap.emitLookup [as callback] (node:net:1611:7)
+    at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:133:8) {
+  code: 'EPERM',
+  [errors]: [
+    Error: connect EPERM ::1:3845 - Local (:::0)
+        at internalConnectMultiple (node:net:1265:16)
+        at defaultTriggerAsyncIdScope (node:internal/async_hooks:473:12)
+        at GetAddrInfoReqWrap.emitLookup [as callback] (node:net:1611:7)
+        at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:133:8) {
+      errno: -1,
+      code: 'EPERM',
+      syscall: 'connect',
+      address: '::1',
+      port: 3845
+    },
+    Error: connect EPERM 127.0.0.1:3845 - Local (0.0.0.0:0)
+        at internalConnectMultiple (node:net:1265:16)
+        at internalConnectMultiple (node:net:1269:5)
+        at defaultTriggerAsyncIdScope (node:internal/async_hooks:473:12)
+        at GetAddrInfoReqWrap.emitLookup [as callback] (node:net:1611:7)
+        at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:133:8) {
+      errno: -1,
+      code: 'EPERM',
+      syscall: 'connect',
+      address: '127.0.0.1',
+      port: 3845
+    }
+  ]
+}
+Caught error for 2101b12de10c91826307fa33b6e8bb50d8912a7f.svg: AggregateError [EPERM]: 
+    at internalConnectMultiple (node:net:1193:18)
+    at internalConnectMultiple (node:net:1269:5)
+    at internalConnectMultiple (node:net:1269:5)
+    at defaultTriggerAsyncIdScope (node:internal/async_hooks:473:12)
+    at GetAddrInfoReqWrap.emitLookup [as callback] (node:net:1611:7)
+    at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:133:8) {
+  code: 'EPERM',
+  [errors]: [
+    Error: connect EPERM ::1:3845 - Local (:::0)
+        at internalConnectMultiple (node:net:1265:16)
+        at defaultTriggerAsyncIdScope (node:internal/async_hooks:473:12)
+        at GetAddrInfoReqWrap.emitLookup [as callback] (node:net:1611:7)
+        at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:133:8) {
+      errno: -1,
+      code: 'EPERM',
+      syscall: 'connect',
+      address: '::1',
+      port: 3845
+    },
+    Error: connect EPERM 127.0.0.1:3845 - Local (0.0.0.0:0)
+        at internalConnectMultiple (node:net:1265:16)
+        at internalConnectMultiple (node:net:1269:5)
+        at defaultTriggerAsyncIdScope (node:internal/async_hooks:473:12)
+        at GetAddrInfoReqWrap.emitLookup [as callback] (node:net:1611:7)
+        at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:133:8) {
+      errno: -1,
+      code: 'EPERM',
+      syscall: 'connect',
+      address: '127.0.0.1',
+      port: 3845
+    }
+  ]
+}
+Starting request for ca03c8cdad8e80fa025e0292931315969d3479bd.svg...
+Error requesting ca03c8cdad8e80fa025e0292931315969d3479bd.svg: AggregateError [EPERM]: 
+    at internalConnectMultiple (node:net:1193:18)
+    at internalConnectMultiple (node:net:1269:5)
+    at internalConnectMultiple (node:net:1269:5)
+    at defaultTriggerAsyncIdScope (node:internal/async_hooks:473:12)
+    at GetAddrInfoReqWrap.emitLookup [as callback] (node:net:1611:7)
+    at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:133:8) {
+  code: 'EPERM',
+  [errors]: [
+    Error: connect EPERM ::1:3845 - Local (:::0)
+        at internalConnectMultiple (node:net:1265:16)
+        at defaultTriggerAsyncIdScope (node:internal/async_hooks:473:12)
+        at GetAddrInfoReqWrap.emitLookup [as callback] (node:net:1611:7)
+        at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:133:8) {
+      errno: -1,
+      code: 'EPERM',
+      syscall: 'connect',
+      address: '::1',
+      port: 3845
+    },
+    Error: connect EPERM 127.0.0.1:3845 - Local (0.0.0.0:0)
+        at internalConnectMultiple (node:net:1265:16)
+        at internalConnectMultiple (node:net:1269:5)
+        at defaultTriggerAsyncIdScope (node:internal/async_hooks:473:12)
+        at GetAddrInfoReqWrap.emitLookup [as callback] (node:net:1611:7)
+        at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:133:8) {
+      errno: -1,
+      code: 'EPERM',
+      syscall: 'connect',
+      address: '127.0.0.1',
+      port: 3845
+    }
+  ]
+}
+Caught error for ca03c8cdad8e80fa025e0292931315969d3479bd.svg: AggregateError [EPERM]: 
+    at internalConnectMultiple (node:net:1193:18)
+    at internalConnectMultiple (node:net:1269:5)
+    at internalConnectMultiple (node:net:1269:5)
+    at defaultTriggerAsyncIdScope (node:internal/async_hooks:473:12)
+    at GetAddrInfoReqWrap.emitLookup [as callback] (node:net:1611:7)
+    at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:133:8) {
+  code: 'EPERM',
+  [errors]: [
+    Error: connect EPERM ::1:3845 - Local (:::0)
+        at internalConnectMultiple (node:net:1265:16)
+        at defaultTriggerAsyncIdScope (node:internal/async_hooks:473:12)
+        at GetAddrInfoReqWrap.emitLookup [as callback] (node:net:1611:7)
+        at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:133:8) {
+      errno: -1,
+      code: 'EPERM',
+      syscall: 'connect',
+      address: '::1',
+      port: 3845
+    },
+    Error: connect EPERM 127.0.0.1:3845 - Local (0.0.0.0:0)
+        at internalConnectMultiple (node:net:1265:16)
+        at internalConnectMultiple (node:net:1269:5)
+        at defaultTriggerAsyncIdScope (node:internal/async_hooks:473:12)
+        at GetAddrInfoReqWrap.emitLookup [as callback] (node:net:1611:7)
+        at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:133:8) {
+      errno: -1,
+      code: 'EPERM',
+      syscall: 'connect',
+      address: '127.0.0.1',
+      port: 3845
+    }
+  ]
+}
+Starting request for 00d93fbffe32eb7c9f51ae085f6c5fd80c227766.svg...
+Error requesting 00d93fbffe32eb7c9f51ae085f6c5fd80c227766.svg: AggregateError [EPERM]: 
+    at internalConnectMultiple (node:net:1193:18)
+    at internalConnectMultiple (node:net:1269:5)
+    at internalConnectMultiple (node:net:1269:5)
+    at defaultTriggerAsyncIdScope (node:internal/async_hooks:473:12)
+    at GetAddrInfoReqWrap.emitLookup [as callback] (node:net:1611:7)
+    at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:133:8) {
+  code: 'EPERM',
+  [errors]: [
+    Error: connect EPERM ::1:3845 - Local (:::0)
+        at internalConnectMultiple (node:net:1265:16)
+        at defaultTriggerAsyncIdScope (node:internal/async_hooks:473:12)
+        at GetAddrInfoReqWrap.emitLookup [as callback] (node:net:1611:7)
+        at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:133:8) {
+      errno: -1,
+      code: 'EPERM',
+      syscall: 'connect',
+      address: '::1',
+      port: 3845
+    },
+    Error: connect EPERM 127.0.0.1:3845 - Local (0.0.0.0:0)
+        at internalConnectMultiple (node:net:1265:16)
+        at internalConnectMultiple (node:net:1269:5)
+        at defaultTriggerAsyncIdScope (node:internal/async_hooks:473:12)
+        at GetAddrInfoReqWrap.emitLookup [as callback] (node:net:1611:7)
+        at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:133:8) {
+      errno: -1,
+      code: 'EPERM',
+      syscall: 'connect',
+      address: '127.0.0.1',
+      port: 3845
+    }
+  ]
+}
+Caught error for 00d93fbffe32eb7c9f51ae085f6c5fd80c227766.svg: AggregateError [EPERM]: 
+    at internalConnectMultiple (node:net:1193:18)
+    at internalConnectMultiple (node:net:1269:5)
+    at internalConnectMultiple (node:net:1269:5)
+    at defaultTriggerAsyncIdScope (node:internal/async_hooks:473:12)
+    at GetAddrInfoReqWrap.emitLookup [as callback] (node:net:1611:7)
+    at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:133:8) {
+  code: 'EPERM',
+  [errors]: [
+    Error: connect EPERM ::1:3845 - Local (:::0)
+        at internalConnectMultiple (node:net:1265:16)
+        at defaultTriggerAsyncIdScope (node:internal/async_hooks:473:12)
+        at GetAddrInfoReqWrap.emitLookup [as callback] (node:net:1611:7)
+        at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:133:8) {
+      errno: -1,
+      code: 'EPERM',
+      syscall: 'connect',
+      address: '::1',
+      port: 3845
+    },
+    Error: connect EPERM 127.0.0.1:3845 - Local (0.0.0.0:0)
+        at internalConnectMultiple (node:net:1265:16)
+        at internalConnectMultiple (node:net:1269:5)
+        at defaultTriggerAsyncIdScope (node:internal/async_hooks:473:12)
+        at GetAddrInfoReqWrap.emitLookup [as callback] (node:net:1611:7)
+        at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:133:8) {
+      errno: -1,
+      code: 'EPERM',
+      syscall: 'connect',
+      address: '127.0.0.1',
+      port: 3845
+    }
+  ]
+}
+Starting request for db9b7a13d7f43e002ff6e4d8898fc4e541e2dc12.svg...
+Error requesting db9b7a13d7f43e002ff6e4d8898fc4e541e2dc12.svg: AggregateError [EPERM]: 
+    at internalConnectMultiple (node:net:1193:18)
+    at internalConnectMultiple (node:net:1269:5)
+    at internalConnectMultiple (node:net:1269:5)
+    at defaultTriggerAsyncIdScope (node:internal/async_hooks:473:12)
+    at GetAddrInfoReqWrap.emitLookup [as callback] (node:net:1611:7)
+    at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:133:8) {
+  code: 'EPERM',
+  [errors]: [
+    Error: connect EPERM ::1:3845 - Local (:::0)
+        at internalConnectMultiple (node:net:1265:16)
+        at defaultTriggerAsyncIdScope (node:internal/async_hooks:473:12)
+        at GetAddrInfoReqWrap.emitLookup [as callback] (node:net:1611:7)
+        at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:133:8) {
+      errno: -1,
+      code: 'EPERM',
+      syscall: 'connect',
+      address: '::1',
+      port: 3845
+    },
+    Error: connect EPERM 127.0.0.1:3845 - Local (0.0.0.0:0)
+        at internalConnectMultiple (node:net:1265:16)
+        at internalConnectMultiple (node:net:1269:5)
+        at defaultTriggerAsyncIdScope (node:internal/async_hooks:473:12)
+        at GetAddrInfoReqWrap.emitLookup [as callback] (node:net:1611:7)
+        at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:133:8) {
+      errno: -1,
+      code: 'EPERM',
+      syscall: 'connect',
+      address: '127.0.0.1',
+      port: 3845
+    }
+  ]
+}
+Caught error for db9b7a13d7f43e002ff6e4d8898fc4e541e2dc12.svg: AggregateError [EPERM]: 
+    at internalConnectMultiple (node:net:1193:18)
+    at internalConnectMultiple (node:net:1269:5)
+    at internalConnectMultiple (node:net:1269:5)
+    at defaultTriggerAsyncIdScope (node:internal/async_hooks:473:12)
+    at GetAddrInfoReqWrap.emitLookup [as callback] (node:net:1611:7)
+    at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:133:8) {
+  code: 'EPERM',
+  [errors]: [
+    Error: connect EPERM ::1:3845 - Local (:::0)
+        at internalConnectMultiple (node:net:1265:16)
+        at defaultTriggerAsyncIdScope (node:internal/async_hooks:473:12)
+        at GetAddrInfoReqWrap.emitLookup [as callback] (node:net:1611:7)
+        at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:133:8) {
+      errno: -1,
+      code: 'EPERM',
+      syscall: 'connect',
+      address: '::1',
+      port: 3845
+    },
+    Error: connect EPERM 127.0.0.1:3845 - Local (0.0.0.0:0)
+        at internalConnectMultiple (node:net:1265:16)
+        at internalConnectMultiple (node:net:1269:5)
+        at defaultTriggerAsyncIdScope (node:internal/async_hooks:473:12)
+        at GetAddrInfoReqWrap.emitLookup [as callback] (node:net:1611:7)
+        at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:133:8) {
+      errno: -1,
+      code: 'EPERM',
+      syscall: 'connect',
+      address: '127.0.0.1',
+      port: 3845
+    }
+  ]
+}
+Starting request for 4cd7af39055266caad6edca3cb7d053f3fe5ee7e.svg...
+Error requesting 4cd7af39055266caad6edca3cb7d053f3fe5ee7e.svg: AggregateError [EPERM]: 
+    at internalConnectMultiple (node:net:1193:18)
+    at internalConnectMultiple (node:net:1269:5)
+    at internalConnectMultiple (node:net:1269:5)
+    at defaultTriggerAsyncIdScope (node:internal/async_hooks:473:12)
+    at GetAddrInfoReqWrap.emitLookup [as callback] (node:net:1611:7)
+    at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:133:8) {
+  code: 'EPERM',
+  [errors]: [
+    Error: connect EPERM ::1:3845 - Local (:::0)
+        at internalConnectMultiple (node:net:1265:16)
+        at defaultTriggerAsyncIdScope (node:internal/async_hooks:473:12)
+        at GetAddrInfoReqWrap.emitLookup [as callback] (node:net:1611:7)
+        at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:133:8) {
+      errno: -1,
+      code: 'EPERM',
+      syscall: 'connect',
+      address: '::1',
+      port: 3845
+    },
+    Error: connect EPERM 127.0.0.1:3845 - Local (0.0.0.0:0)
+        at internalConnectMultiple (node:net:1265:16)
+        at internalConnectMultiple (node:net:1269:5)
+        at defaultTriggerAsyncIdScope (node:internal/async_hooks:473:12)
+        at GetAddrInfoReqWrap.emitLookup [as callback] (node:net:1611:7)
+        at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:133:8) {
+      errno: -1,
+      code: 'EPERM',
+      syscall: 'connect',
+      address: '127.0.0.1',
+      port: 3845
+    }
+  ]
+}
+Caught error for 4cd7af39055266caad6edca3cb7d053f3fe5ee7e.svg: AggregateError [EPERM]: 
+    at internalConnectMultiple (node:net:1193:18)
+    at internalConnectMultiple (node:net:1269:5)
+    at internalConnectMultiple (node:net:1269:5)
+    at defaultTriggerAsyncIdScope (node:internal/async_hooks:473:12)
+    at GetAddrInfoReqWrap.emitLookup [as callback] (node:net:1611:7)
+    at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:133:8) {
+  code: 'EPERM',
+  [errors]: [
+    Error: connect EPERM ::1:3845 - Local (:::0)
+        at internalConnectMultiple (node:net:1265:16)
+        at defaultTriggerAsyncIdScope (node:internal/async_hooks:473:12)
+        at GetAddrInfoReqWrap.emitLookup [as callback] (node:net:1611:7)
+        at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:133:8) {
+      errno: -1,
+      code: 'EPERM',
+      syscall: 'connect',
+      address: '::1',
+      port: 3845
+    },
+    Error: connect EPERM 127.0.0.1:3845 - Local (0.0.0.0:0)
+        at internalConnectMultiple (node:net:1265:16)
+        at internalConnectMultiple (node:net:1269:5)
+        at defaultTriggerAsyncIdScope (node:internal/async_hooks:473:12)
+        at GetAddrInfoReqWrap.emitLookup [as callback] (node:net:1611:7)
+        at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:133:8) {
+      errno: -1,
+      code: 'EPERM',
+      syscall: 'connect',
+      address: '127.0.0.1',
+      port: 3845
+    }
+  ]
+}
+Starting request for 06cc2b99a4eafdbd4d83752427e8a52d0883a827.svg...
+Error requesting 06cc2b99a4eafdbd4d83752427e8a52d0883a827.svg: AggregateError [EPERM]: 
+    at internalConnectMultiple (node:net:1193:18)
+    at internalConnectMultiple (node:net:1269:5)
+    at internalConnectMultiple (node:net:1269:5)
+    at defaultTriggerAsyncIdScope (node:internal/async_hooks:473:12)
+    at GetAddrInfoReqWrap.emitLookup [as callback] (node:net:1611:7)
+    at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:133:8) {
+  code: 'EPERM',
+  [errors]: [
+    Error: connect EPERM ::1:3845 - Local (:::0)
+        at internalConnectMultiple (node:net:1265:16)
+        at defaultTriggerAsyncIdScope (node:internal/async_hooks:473:12)
+        at GetAddrInfoReqWrap.emitLookup [as callback] (node:net:1611:7)
+        at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:133:8) {
+      errno: -1,
+      code: 'EPERM',
+      syscall: 'connect',
+      address: '::1',
+      port: 3845
+    },
+    Error: connect EPERM 127.0.0.1:3845 - Local (0.0.0.0:0)
+        at internalConnectMultiple (node:net:1265:16)
+        at internalConnectMultiple (node:net:1269:5)
+        at defaultTriggerAsyncIdScope (node:internal/async_hooks:473:12)
+        at GetAddrInfoReqWrap.emitLookup [as callback] (node:net:1611:7)
+        at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:133:8) {
+      errno: -1,
+      code: 'EPERM',
+      syscall: 'connect',
+      address: '127.0.0.1',
+      port: 3845
+    }
+  ]
+}
+Caught error for 06cc2b99a4eafdbd4d83752427e8a52d0883a827.svg: AggregateError [EPERM]: 
+    at internalConnectMultiple (node:net:1193:18)
+    at internalConnectMultiple (node:net:1269:5)
+    at internalConnectMultiple (node:net:1269:5)
+    at defaultTriggerAsyncIdScope (node:internal/async_hooks:473:12)
+    at GetAddrInfoReqWrap.emitLookup [as callback] (node:net:1611:7)
+    at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:133:8) {
+  code: 'EPERM',
+  [errors]: [
+    Error: connect EPERM ::1:3845 - Local (:::0)
+        at internalConnectMultiple (node:net:1265:16)
+        at defaultTriggerAsyncIdScope (node:internal/async_hooks:473:12)
+        at GetAddrInfoReqWrap.emitLookup [as callback] (node:net:1611:7)
+        at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:133:8) {
+      errno: -1,
+      code: 'EPERM',
+      syscall: 'connect',
+      address: '::1',
+      port: 3845
+    },
+    Error: connect EPERM 127.0.0.1:3845 - Local (0.0.0.0:0)
+        at internalConnectMultiple (node:net:1265:16)
+        at internalConnectMultiple (node:net:1269:5)
+        at defaultTriggerAsyncIdScope (node:internal/async_hooks:473:12)
+        at GetAddrInfoReqWrap.emitLookup [as callback] (node:net:1611:7)
+        at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:133:8) {
+      errno: -1,
+      code: 'EPERM',
+      syscall: 'connect',
+      address: '127.0.0.1',
+      port: 3845
+    }
+  ]
+}
+Starting request for 54f3bffdb7d3f9011678ff46551aed1716074688.svg...
+Error requesting 54f3bffdb7d3f9011678ff46551aed1716074688.svg: AggregateError [EPERM]: 
+    at internalConnectMultiple (node:net:1193:18)
+    at internalConnectMultiple (node:net:1269:5)
+    at internalConnectMultiple (node:net:1269:5)
+    at defaultTriggerAsyncIdScope (node:internal/async_hooks:473:12)
+    at GetAddrInfoReqWrap.emitLookup [as callback] (node:net:1611:7)
+    at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:133:8) {
+  code: 'EPERM',
+  [errors]: [
+    Error: connect EPERM ::1:3845 - Local (:::0)
+        at internalConnectMultiple (node:net:1265:16)
+        at defaultTriggerAsyncIdScope (node:internal/async_hooks:473:12)
+        at GetAddrInfoReqWrap.emitLookup [as callback] (node:net:1611:7)
+        at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:133:8) {
+      errno: -1,
+      code: 'EPERM',
+      syscall: 'connect',
+      address: '::1',
+      port: 3845
+    },
+    Error: connect EPERM 127.0.0.1:3845 - Local (0.0.0.0:0)
+        at internalConnectMultiple (node:net:1265:16)
+        at internalConnectMultiple (node:net:1269:5)
+        at defaultTriggerAsyncIdScope (node:internal/async_hooks:473:12)
+        at GetAddrInfoReqWrap.emitLookup [as callback] (node:net:1611:7)
+        at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:133:8) {
+      errno: -1,
+      code: 'EPERM',
+      syscall: 'connect',
+      address: '127.0.0.1',
+      port: 3845
+    }
+  ]
+}
+Caught error for 54f3bffdb7d3f9011678ff46551aed1716074688.svg: AggregateError [EPERM]: 
+    at internalConnectMultiple (node:net:1193:18)
+    at internalConnectMultiple (node:net:1269:5)
+    at internalConnectMultiple (node:net:1269:5)
+    at defaultTriggerAsyncIdScope (node:internal/async_hooks:473:12)
+    at GetAddrInfoReqWrap.emitLookup [as callback] (node:net:1611:7)
+    at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:133:8) {
+  code: 'EPERM',
+  [errors]: [
+    Error: connect EPERM ::1:3845 - Local (:::0)
+        at internalConnectMultiple (node:net:1265:16)
+        at defaultTriggerAsyncIdScope (node:internal/async_hooks:473:12)
+        at GetAddrInfoReqWrap.emitLookup [as callback] (node:net:1611:7)
+        at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:133:8) {
+      errno: -1,
+      code: 'EPERM',
+      syscall: 'connect',
+      address: '::1',
+      port: 3845
+    },
+    Error: connect EPERM 127.0.0.1:3845 - Local (0.0.0.0:0)
+        at internalConnectMultiple (node:net:1265:16)
+        at internalConnectMultiple (node:net:1269:5)
+        at defaultTriggerAsyncIdScope (node:internal/async_hooks:473:12)
+        at GetAddrInfoReqWrap.emitLookup [as callback] (node:net:1611:7)
+        at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:133:8) {
+      errno: -1,
+      code: 'EPERM',
+      syscall: 'connect',
+      address: '127.0.0.1',
+      port: 3845
+    }
+  ]
+}
+Starting request for 0d2080f25f9a39e4cc5f574f6bf0fbbb2deafd50.svg...
+Error requesting 0d2080f25f9a39e4cc5f574f6bf0fbbb2deafd50.svg: AggregateError [EPERM]: 
+    at internalConnectMultiple (node:net:1193:18)
+    at internalConnectMultiple (node:net:1269:5)
+    at internalConnectMultiple (node:net:1269:5)
+    at defaultTriggerAsyncIdScope (node:internal/async_hooks:473:12)
+    at GetAddrInfoReqWrap.emitLookup [as callback] (node:net:1611:7)
+    at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:133:8) {
+  code: 'EPERM',
+  [errors]: [
+    Error: connect EPERM ::1:3845 - Local (:::0)
+        at internalConnectMultiple (node:net:1265:16)
+        at defaultTriggerAsyncIdScope (node:internal/async_hooks:473:12)
+        at GetAddrInfoReqWrap.emitLookup [as callback] (node:net:1611:7)
+        at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:133:8) {
+      errno: -1,
+      code: 'EPERM',
+      syscall: 'connect',
+      address: '::1',
+      port: 3845
+    },
+    Error: connect EPERM 127.0.0.1:3845 - Local (0.0.0.0:0)
+        at internalConnectMultiple (node:net:1265:16)
+        at internalConnectMultiple (node:net:1269:5)
+        at defaultTriggerAsyncIdScope (node:internal/async_hooks:473:12)
+        at GetAddrInfoReqWrap.emitLookup [as callback] (node:net:1611:7)
+        at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:133:8) {
+      errno: -1,
+      code: 'EPERM',
+      syscall: 'connect',
+      address: '127.0.0.1',
+      port: 3845
+    }
+  ]
+}
+Caught error for 0d2080f25f9a39e4cc5f574f6bf0fbbb2deafd50.svg: AggregateError [EPERM]: 
+    at internalConnectMultiple (node:net:1193:18)
+    at internalConnectMultiple (node:net:1269:5)
+    at internalConnectMultiple (node:net:1269:5)
+    at defaultTriggerAsyncIdScope (node:internal/async_hooks:473:12)
+    at GetAddrInfoReqWrap.emitLookup [as callback] (node:net:1611:7)
+    at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:133:8) {
+  code: 'EPERM',
+  [errors]: [
+    Error: connect EPERM ::1:3845 - Local (:::0)
+        at internalConnectMultiple (node:net:1265:16)
+        at defaultTriggerAsyncIdScope (node:internal/async_hooks:473:12)
+        at GetAddrInfoReqWrap.emitLookup [as callback] (node:net:1611:7)
+        at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:133:8) {
+      errno: -1,
+      code: 'EPERM',
+      syscall: 'connect',
+      address: '::1',
+      port: 3845
+    },
+    Error: connect EPERM 127.0.0.1:3845 - Local (0.0.0.0:0)
+        at internalConnectMultiple (node:net:1265:16)
+        at internalConnectMultiple (node:net:1269:5)
+        at defaultTriggerAsyncIdScope (node:internal/async_hooks:473:12)
+        at GetAddrInfoReqWrap.emitLookup [as callback] (node:net:1611:7)
+        at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:133:8) {
+      errno: -1,
+      code: 'EPERM',
+      syscall: 'connect',
+      address: '127.0.0.1',
+      port: 3845
+    }
+  ]
+}
+Starting request for 371f6a2066fac01f7565f51e98467017b81c7db0.svg...
+Error requesting 371f6a2066fac01f7565f51e98467017b81c7db0.svg: AggregateError [EPERM]: 
+    at internalConnectMultiple (node:net:1193:18)
+    at internalConnectMultiple (node:net:1269:5)
+    at internalConnectMultiple (node:net:1269:5)
+    at defaultTriggerAsyncIdScope (node:internal/async_hooks:473:12)
+    at GetAddrInfoReqWrap.emitLookup [as callback] (node:net:1611:7)
+    at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:133:8) {
+  code: 'EPERM',
+  [errors]: [
+    Error: connect EPERM ::1:3845 - Local (:::0)
+        at internalConnectMultiple (node:net:1265:16)
+        at defaultTriggerAsyncIdScope (node:internal/async_hooks:473:12)
+        at GetAddrInfoReqWrap.emitLookup [as callback] (node:net:1611:7)
+        at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:133:8) {
+      errno: -1,
+      code: 'EPERM',
+      syscall: 'connect',
+      address: '::1',
+      port: 3845
+    },
+    Error: connect EPERM 127.0.0.1:3845 - Local (0.0.0.0:0)
+        at internalConnectMultiple (node:net:1265:16)
+        at internalConnectMultiple (node:net:1269:5)
+        at defaultTriggerAsyncIdScope (node:internal/async_hooks:473:12)
+        at GetAddrInfoReqWrap.emitLookup [as callback] (node:net:1611:7)
+        at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:133:8) {
+      errno: -1,
+      code: 'EPERM',
+      syscall: 'connect',
+      address: '127.0.0.1',
+      port: 3845
+    }
+  ]
+}
+Caught error for 371f6a2066fac01f7565f51e98467017b81c7db0.svg: AggregateError [EPERM]: 
+    at internalConnectMultiple (node:net:1193:18)
+    at internalConnectMultiple (node:net:1269:5)
+    at internalConnectMultiple (node:net:1269:5)
+    at defaultTriggerAsyncIdScope (node:internal/async_hooks:473:12)
+    at GetAddrInfoReqWrap.emitLookup [as callback] (node:net:1611:7)
+    at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:133:8) {
+  code: 'EPERM',
+  [errors]: [
+    Error: connect EPERM ::1:3845 - Local (:::0)
+        at internalConnectMultiple (node:net:1265:16)
+        at defaultTriggerAsyncIdScope (node:internal/async_hooks:473:12)
+        at GetAddrInfoReqWrap.emitLookup [as callback] (node:net:1611:7)
+        at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:133:8) {
+      errno: -1,
+      code: 'EPERM',
+      syscall: 'connect',
+      address: '::1',
+      port: 3845
+    },
+    Error: connect EPERM 127.0.0.1:3845 - Local (0.0.0.0:0)
+        at internalConnectMultiple (node:net:1265:16)
+        at internalConnectMultiple (node:net:1269:5)
+        at defaultTriggerAsyncIdScope (node:internal/async_hooks:473:12)
+        at GetAddrInfoReqWrap.emitLookup [as callback] (node:net:1611:7)
+        at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:133:8) {
+      errno: -1,
+      code: 'EPERM',
+      syscall: 'connect',
+      address: '127.0.0.1',
+      port: 3845
+    }
+  ]
+}
+Starting request for 5bfa1566cc30f660481b304980f00ef0df07c222.svg...
+Error requesting 5bfa1566cc30f660481b304980f00ef0df07c222.svg: AggregateError [EPERM]: 
+    at internalConnectMultiple (node:net:1193:18)
+    at internalConnectMultiple (node:net:1269:5)
+    at internalConnectMultiple (node:net:1269:5)
+    at defaultTriggerAsyncIdScope (node:internal/async_hooks:473:12)
+    at GetAddrInfoReqWrap.emitLookup [as callback] (node:net:1611:7)
+    at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:133:8) {
+  code: 'EPERM',
+  [errors]: [
+    Error: connect EPERM ::1:3845 - Local (:::0)
+        at internalConnectMultiple (node:net:1265:16)
+        at defaultTriggerAsyncIdScope (node:internal/async_hooks:473:12)
+        at GetAddrInfoReqWrap.emitLookup [as callback] (node:net:1611:7)
+        at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:133:8) {
+      errno: -1,
+      code: 'EPERM',
+      syscall: 'connect',
+      address: '::1',
+      port: 3845
+    },
+    Error: connect EPERM 127.0.0.1:3845 - Local (0.0.0.0:0)
+        at internalConnectMultiple (node:net:1265:16)
+        at internalConnectMultiple (node:net:1269:5)
+        at defaultTriggerAsyncIdScope (node:internal/async_hooks:473:12)
+        at GetAddrInfoReqWrap.emitLookup [as callback] (node:net:1611:7)
+        at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:133:8) {
+      errno: -1,
+      code: 'EPERM',
+      syscall: 'connect',
+      address: '127.0.0.1',
+      port: 3845
+    }
+  ]
+}
+Caught error for 5bfa1566cc30f660481b304980f00ef0df07c222.svg: AggregateError [EPERM]: 
+    at internalConnectMultiple (node:net:1193:18)
+    at internalConnectMultiple (node:net:1269:5)
+    at internalConnectMultiple (node:net:1269:5)
+    at defaultTriggerAsyncIdScope (node:internal/async_hooks:473:12)
+    at GetAddrInfoReqWrap.emitLookup [as callback] (node:net:1611:7)
+    at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:133:8) {
+  code: 'EPERM',
+  [errors]: [
+    Error: connect EPERM ::1:3845 - Local (:::0)
+        at internalConnectMultiple (node:net:1265:16)
+        at defaultTriggerAsyncIdScope (node:internal/async_hooks:473:12)
+        at GetAddrInfoReqWrap.emitLookup [as callback] (node:net:1611:7)
+        at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:133:8) {
+      errno: -1,
+      code: 'EPERM',
+      syscall: 'connect',
+      address: '::1',
+      port: 3845
+    },
+    Error: connect EPERM 127.0.0.1:3845 - Local (0.0.0.0:0)
+        at internalConnectMultiple (node:net:1265:16)
+        at internalConnectMultiple (node:net:1269:5)
+        at defaultTriggerAsyncIdScope (node:internal/async_hooks:473:12)
+        at GetAddrInfoReqWrap.emitLookup [as callback] (node:net:1611:7)
+        at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:133:8) {
+      errno: -1,
+      code: 'EPERM',
+      syscall: 'connect',
+      address: '127.0.0.1',
+      port: 3845
+    }
+  ]
+}
+Starting request for e38f8e7934071a0ebac86be90662f99233167655.svg...
+Error requesting e38f8e7934071a0ebac86be90662f99233167655.svg: AggregateError [EPERM]: 
+    at internalConnectMultiple (node:net:1193:18)
+    at internalConnectMultiple (node:net:1269:5)
+    at internalConnectMultiple (node:net:1269:5)
+    at defaultTriggerAsyncIdScope (node:internal/async_hooks:473:12)
+    at GetAddrInfoReqWrap.emitLookup [as callback] (node:net:1611:7)
+    at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:133:8) {
+  code: 'EPERM',
+  [errors]: [
+    Error: connect EPERM ::1:3845 - Local (:::0)
+        at internalConnectMultiple (node:net:1265:16)
+        at defaultTriggerAsyncIdScope (node:internal/async_hooks:473:12)
+        at GetAddrInfoReqWrap.emitLookup [as callback] (node:net:1611:7)
+        at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:133:8) {
+      errno: -1,
+      code: 'EPERM',
+      syscall: 'connect',
+      address: '::1',
+      port: 3845
+    },
+    Error: connect EPERM 127.0.0.1:3845 - Local (0.0.0.0:0)
+        at internalConnectMultiple (node:net:1265:16)
+        at internalConnectMultiple (node:net:1269:5)
+        at defaultTriggerAsyncIdScope (node:internal/async_hooks:473:12)
+        at GetAddrInfoReqWrap.emitLookup [as callback] (node:net:1611:7)
+        at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:133:8) {
+      errno: -1,
+      code: 'EPERM',
+      syscall: 'connect',
+      address: '127.0.0.1',
+      port: 3845
+    }
+  ]
+}
+Caught error for e38f8e7934071a0ebac86be90662f99233167655.svg: AggregateError [EPERM]: 
+    at internalConnectMultiple (node:net:1193:18)
+    at internalConnectMultiple (node:net:1269:5)
+    at internalConnectMultiple (node:net:1269:5)
+    at defaultTriggerAsyncIdScope (node:internal/async_hooks:473:12)
+    at GetAddrInfoReqWrap.emitLookup [as callback] (node:net:1611:7)
+    at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:133:8) {
+  code: 'EPERM',
+  [errors]: [
+    Error: connect EPERM ::1:3845 - Local (:::0)
+        at internalConnectMultiple (node:net:1265:16)
+        at defaultTriggerAsyncIdScope (node:internal/async_hooks:473:12)
+        at GetAddrInfoReqWrap.emitLookup [as callback] (node:net:1611:7)
+        at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:133:8) {
+      errno: -1,
+      code: 'EPERM',
+      syscall: 'connect',
+      address: '::1',
+      port: 3845
+    },
+    Error: connect EPERM 127.0.0.1:3845 - Local (0.0.0.0:0)
+        at internalConnectMultiple (node:net:1265:16)
+        at internalConnectMultiple (node:net:1269:5)
+        at defaultTriggerAsyncIdScope (node:internal/async_hooks:473:12)
+        at GetAddrInfoReqWrap.emitLookup [as callback] (node:net:1611:7)
+        at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:133:8) {
+      errno: -1,
+      code: 'EPERM',
+      syscall: 'connect',
+      address: '127.0.0.1',
+      port: 3845
+    }
+  ]
+}
+Starting request for 9aae2d9d1e29f62d116c3614570822e9033fe4ab.svg...
+Error requesting 9aae2d9d1e29f62d116c3614570822e9033fe4ab.svg: AggregateError [EPERM]: 
+    at internalConnectMultiple (node:net:1193:18)
+    at internalConnectMultiple (node:net:1269:5)
+    at internalConnectMultiple (node:net:1269:5)
+    at defaultTriggerAsyncIdScope (node:internal/async_hooks:473:12)
+    at GetAddrInfoReqWrap.emitLookup [as callback] (node:net:1611:7)
+    at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:133:8) {
+  code: 'EPERM',
+  [errors]: [
+    Error: connect EPERM ::1:3845 - Local (:::0)
+        at internalConnectMultiple (node:net:1265:16)
+        at defaultTriggerAsyncIdScope (node:internal/async_hooks:473:12)
+        at GetAddrInfoReqWrap.emitLookup [as callback] (node:net:1611:7)
+        at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:133:8) {
+      errno: -1,
+      code: 'EPERM',
+      syscall: 'connect',
+      address: '::1',
+      port: 3845
+    },
+    Error: connect EPERM 127.0.0.1:3845 - Local (0.0.0.0:0)
+        at internalConnectMultiple (node:net:1265:16)
+        at internalConnectMultiple (node:net:1269:5)
+        at defaultTriggerAsyncIdScope (node:internal/async_hooks:473:12)
+        at GetAddrInfoReqWrap.emitLookup [as callback] (node:net:1611:7)
+        at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:133:8) {
+      errno: -1,
+      code: 'EPERM',
+      syscall: 'connect',
+      address: '127.0.0.1',
+      port: 3845
+    }
+  ]
+}
+Caught error for 9aae2d9d1e29f62d116c3614570822e9033fe4ab.svg: AggregateError [EPERM]: 
+    at internalConnectMultiple (node:net:1193:18)
+    at internalConnectMultiple (node:net:1269:5)
+    at internalConnectMultiple (node:net:1269:5)
+    at defaultTriggerAsyncIdScope (node:internal/async_hooks:473:12)
+    at GetAddrInfoReqWrap.emitLookup [as callback] (node:net:1611:7)
+    at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:133:8) {
+  code: 'EPERM',
+  [errors]: [
+    Error: connect EPERM ::1:3845 - Local (:::0)
+        at internalConnectMultiple (node:net:1265:16)
+        at defaultTriggerAsyncIdScope (node:internal/async_hooks:473:12)
+        at GetAddrInfoReqWrap.emitLookup [as callback] (node:net:1611:7)
+        at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:133:8) {
+      errno: -1,
+      code: 'EPERM',
+      syscall: 'connect',
+      address: '::1',
+      port: 3845
+    },
+    Error: connect EPERM 127.0.0.1:3845 - Local (0.0.0.0:0)
+        at internalConnectMultiple (node:net:1265:16)
+        at internalConnectMultiple (node:net:1269:5)
+        at defaultTriggerAsyncIdScope (node:internal/async_hooks:473:12)
+        at GetAddrInfoReqWrap.emitLookup [as callback] (node:net:1611:7)
+        at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:133:8) {
+      errno: -1,
+      code: 'EPERM',
+      syscall: 'connect',
+      address: '127.0.0.1',
+      port: 3845
+    }
+  ]
+}
