@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  sitemap.xml — Sharkdom.com (Single Combined Sitemap)
+  Last updated: March 2026
+  Location: /public/sitemap.xml → serves at sharkdom.com/sitemap.xml
+  Submit to: Google Search Console → sharkdom.com → Sitemaps
+
+  DEV INSTRUCTIONS:
+  — Update <lastmod> whenever a page's content changes
+  — Add new blog posts to the BLOG section on publish
+  — Uncomment solution/comparison pages only when the page is LIVE
+  — Never include a URL that returns a 404
+-->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <!-- ════════════════════════════════════════════════════════
+       SECTION 1 — HOMEPAGE
+       ════════════════════════════════════════════════════════ -->
+  <url>
+    <loc>https://sharkdom.com/</loc>
+    <lastmod>2026-03-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <!-- ════════════════════════════════════════════════════════
+       SECTION 2 — CORE COMMERCIAL PAGES
+       ════════════════════════════════════════════════════════ -->
+  <url>
+    <loc>https://sharkdom.com/pricing</loc>
+    <lastmod>2026-03-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://sharkdom.com/book-demo</loc>
+    <lastmod>2026-03-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://sharkdom.com/integration</loc>
+    <lastmod>2026-03-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://sharkdom.com/partnership-jobs</loc>
+    <lastmod>2026-03-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://www.sharkdom.com/job-posting</loc>
+    <lastmod>2026-03-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://www.sharkdom.com/job-preview</loc>
+    <lastmod>2026-03-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <!-- ════════════════════════════════════════════════════════
+       SECTION 4 — COMPARISON / VS PAGES
+       Uncomment ONLY after each page is live
+       ════════════════════════════════════════════════════════ -->
+  <url>
+    <loc>https://www.sharkdom.com/compare/sharkdom-vs-partnerstack</loc>
+    <lastmod>2026-03-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://www.sharkdom.com/compare/sharkdom-vs-crossbeam</loc>
+    <lastmod>2026-03-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://www.sharkdom.com/compare/sharkdom-vs-impartner</loc>
+    <lastmod>2026-03-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- ════════════════════════════════════════════════════════
+       SECTION 5 — RESOURCES, GLOSSARY, HELP
+       ════════════════════════════════════════════════════════ -->
+  <url>
+    <loc>https://sharkdom.com/blog</loc>
+    <lastmod>2026-03-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://sharkdom.com/resources</loc>
+    <lastmod>2026-03-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://sharkdom.com/glossary</loc>
+    <lastmod>2026-04-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- ════════════════════════════════════════════════════════
+       SECTION 6 — BLOG POSTS
+       Add one <url> block per post on publish date
+       Slug format: /blog/your-post-title-here
+       ════════════════════════════════════════════════════════ -->
+
+  <!-- Month 1 Foundation Posts -->
+  <url>
+    <loc>https://www.sharkdom.com/blog/5-best-hacks-to-use-dweep-ai-to-accelerate-your-partner-onboarding-rate-by-250</loc>
+    <lastmod>2026-03-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://sharkdom.com/blog/5-things-to-keep-in-mind-when-to-apply-to-partner-program-and-when-to-send-enquiry-via-sharkdom</loc>
+    <lastmod>2026-03-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://sharkdom.com/blog/how-to-redeem-sharkdom-coupon-in-2025</loc>
+    <lastmod>2026-03-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://sharkdom.com/blog/why-do-partner-sourced-leads-close-faster-than-traditional-outbound</loc>
+    <lastmod>2026-03-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://sharkdom.com/blog/modern-deal-registration-why-it-s-better-than-old-prms</loc>
+    <lastmod>2026-04-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://sharkdom.com/blog/stop-treating-partnerships-like-a-side-project-in-2025</loc>
+    <lastmod>2026-04-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://sharkdom.com/blog/how-to-build-high-performing-partner-ecosystem-in-2025</loc>
+    <lastmod>2026-04-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://sharkdom.com/blog/how-dweepkart-transformed-its-partner-management-pipeline-using-sharkdom</loc>
+    <lastmod>2026-04-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://sharkdom.com/blog/how-deal-registration-works-in-sharkdom</loc>
+    <lastmod>2026-04-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://sharkdom.com/blog/channel-strategies-for-how-to-work-with-integration-partners-in-2025</loc>
+    <lastmod>2026-04-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://sharkdom.com/blog/partnership-marketing-examples</loc>
+    <lastmod>2026-04-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://sharkdom.com/blog/why-yc-startups-prefers-sharkdom</loc>
+    <lastmod>2026-04-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://sharkdom.com/blog/right-time-to-initiate-partnership-hunt-for-your-business</loc>
+    <lastmod>2026-04-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  
+  <url>
+    <loc>https://sharkdom.com/blog/why-ams-can-go-pm-but-pms-can-t-go-am</loc>
+    <lastmod>2026-04-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://sharkdom.com/blog/top-8-best-impartner-alternatives-and-competitors-in-2024</loc>
+    <lastmod>2026-04-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://sharkdom.com/blog/top-features-to-look-for-in-a-partner-onboarding-platform</loc>
+    <lastmod>2026-04-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://sharkdom.com/blog/top-8-best-allbounds-alternatives-and-competitors-in-2024</loc>
+    <lastmod>2026-04-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://sharkdom.com/blog/top-20-chatgpt-prompts-for-partner-managers-pm-and-alliance-managers-am</loc>
+    <lastmod>2026-04-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  
+  <!-- ════════════════════════════════════════════════════════
+       SECTION 7 — FEATURE PAGE
+       Add one block per term as glossary page is built
+       ════════════════════════════════════════════════════════ -->
+  <url>
+    <loc>https://www.sharkdom.com/marketplace</loc>
+    <lastmod>2026-04-05</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://www.sharkdom.com/partner-mapping-resource</loc>
+    <lastmod>2026-04-05</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://www.sharkdom.com/partner-training-feature</loc>
+    <lastmod>2026-04-05</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <!-- ══════════════════════════════════════════════════════
+       SECTION 8 — EVENT PAGES
+       ════════════════════════════════════════════════════════ -->
+  <url>
+    <loc>https://www.sharkdom.com/events</loc>
+    <lastmod>2026-03-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://www.sharkdom.com/high-performing-partner-ecosystem</loc>
+    <lastmod>2026-03-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+
+  <url>
+    <loc>https://www.sharkdom.com/event/partner-source-revenue</loc>
+    <lastmod>2026-03-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <!-- ════════════════════════════════════════════════════════
+       SECTION 9 — LEGAL (low priority, rarely changes)
+       ════════════════════════════════════════════════════════ -->
+  <url>
+    <loc>https://sharkdom.com/privacy-policy</loc>
+    <lastmod>2026-03-05</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.4</priority>
+  </url>
+</urlset>

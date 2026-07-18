@@ -1,0 +1,82 @@
+# ============================================================
+# robots.txt — Sharkdom.com
+# Last updated: March 2026
+# Questions: tech@sharkdom.com
+# ============================================================
+
+# ── MAIN CRAWLER (Google, Bing, all search engines) ─────────
+User-agent: *
+
+# Allow all core public pages
+Allow: /
+Allow: /pricing
+Allow: /integration
+Allow: /book-demo
+Allow: /blog/
+Allow: /blog/*
+Allow: /resources/
+Allow: /resources/*
+
+# Comparison pages
+Allow: /compare/
+Allow: /compare/*
+
+# Legal pages (allow indexing)
+Allow: /privacy
+
+# ── BLOCK — App/Dashboard (not for public indexing) ─────────
+Disallow: /dashboard/
+Disallow: /app/
+Disallow: /admin/
+Disallow: /api/
+Disallow: /auth/
+Disallow: /onboarding/
+Disallow: /settings/
+Disallow: /internal/
+
+# ── BLOCK — Dev/staging/test environments ───────────────────
+Disallow: /staging/
+Disallow: /dev/
+Disallow: /test/
+Disallow: /_next/
+Disallow: /cdn-cgi/
+
+# ── BLOCK — URL parameters that create duplicate content ────
+Disallow: /*?ref=*
+Disallow: /*?utm_*
+Disallow: /*?source=*
+Disallow: /*?campaign=*
+Disallow: /*?preview=*
+Disallow: /*?draft=*
+
+# ── CRAWL RATE (optional — remove if causes issues) ─────────
+# Crawl-delay: 1
+
+# ── SITEMAPS ─────────────────────────────────────────────────
+Sitemap: https://sharkdom.com/sitemap.xml
+
+# ── SPECIFIC BOTS ────────────────────────────────────────────
+
+# Google — full access
+User-agent: Googlebot
+Allow: /
+
+# Bing — full access  
+User-agent: Bingbot
+Allow: /
+
+# Block AI training crawlers (standard practice for SaaS sites)
+User-agent: GPTBot
+Disallow: /
+
+User-agent: Google-Extended
+Disallow: /
+
+User-agent: CCBot
+Disallow: /
+
+User-agent: anthropic-ai
+Disallow: /
+
+User-agent: Claude-Web
+Disallow: /
