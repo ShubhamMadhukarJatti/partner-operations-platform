@@ -1,0 +1,76 @@
+/* React Quill Custom Styles for Borderless Design */
+
+.quillWrapper {
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Remove all borders from Quill container */
+.quillWrapper :global(.ql-container) {
+  border: none !important;
+  flex: 1;
+  overflow-y: auto;
+  font-family: inherit;
+}
+
+/* Remove border from toolbar and style it */
+.quillWrapper :global(.ql-toolbar) {
+  border: none !important;
+  border-bottom: 1px solid #e5e7eb !important;
+  background: #f9fafb;
+  padding: 8px;
+  border-radius: 8px 8px 0 0;
+}
+
+/* Style the editor area */
+.quillWrapper :global(.ql-editor) {
+  min-height: 200px;
+  padding: 16px;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+/* Placeholder styling */
+.quillWrapper :global(.ql-editor.ql-blank::before) {
+  color: #9ca3af;
+  font-style: normal;
+}
+
+/* Toolbar button hover effects */
+.quillWrapper :global(.ql-toolbar button:hover) {
+  background-color: #e5e7eb !important;
+  border-radius: 4px;
+}
+
+/* Active toolbar button */
+.quillWrapper :global(.ql-toolbar button.ql-active) {
+  background-color: #3b82f6 !important;
+  color: white !important;
+  border-radius: 4px;
+}
+
+/* Dropdown hover */
+.quillWrapper :global(.ql-toolbar .ql-picker-label:hover) {
+  background-color: #e5e7eb !important;
+  border-radius: 4px;
+}
+
+/* Smooth scrollbar for editor */
+.quillWrapper :global(.ql-editor::-webkit-scrollbar) {
+  width: 6px;
+}
+
+.quillWrapper :global(.ql-editor::-webkit-scrollbar-track) {
+  background: #f1f1f1;
+  border-radius: 3px;
+}
+
+.quillWrapper :global(.ql-editor::-webkit-scrollbar-thumb) {
+  background: #cbd5e1;
+  border-radius: 3px;
+}
+
+.quillWrapper :global(.ql-editor::-webkit-scrollbar-thumb:hover) {
+  background: #94a3b8;
+}
