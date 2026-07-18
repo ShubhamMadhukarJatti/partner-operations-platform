@@ -1,0 +1,229 @@
+<!doctype html>
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Sharkdom Email Generator</title>
+
+    <script src="https://www.gstatic.com/firebasejs/9.22.2/firebase-app-compat.js"></script>
+
+    <script src="https://www.gstatic.com/firebasejs/9.22.2/firebase-firestore-compat.js"></script>
+
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+
+        padding: 20px;
+
+        background: #f2f2f2;
+      }
+
+      .container {
+        max-width: 800px;
+
+        margin: auto;
+
+        background: white;
+
+        padding: 20px;
+
+        border-radius: 10px;
+
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      }
+
+      textarea,
+      input[type='text'],
+      input[type='email'] {
+        width: 100%;
+
+        padding: 10px;
+
+        margin-top: 10px;
+
+        border: 1px solid #ccc;
+
+        border-radius: 4px;
+      }
+
+      label {
+        font-weight: bold;
+      }
+
+      button {
+        margin-top: 20px;
+
+        padding: 10px 20px;
+
+        background-color: #2f52eb;
+
+        color: white;
+
+        border: none;
+
+        border-radius: 4px;
+
+        font-size: 16px;
+
+        cursor: pointer;
+      }
+
+      #output {
+        margin-top: 40px;
+
+        padding: 20px;
+
+        background-color: #fff;
+
+        border: 1px solid #ccc;
+
+        border-radius: 6px;
+
+        white-space: pre-wrap;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="container">
+      <h2>Generate Sharkdom HTML Email</h2>
+
+      <label for="docId">Template Code:</label>
+
+      <input type="text" id="docId" placeholder="Enter Template Code" />
+
+      <br />
+
+      <label for="sender" style="margin-top: 20px">Sender Email:</label>
+
+      <input
+        type="email"
+        id="sender"
+        placeholder="Team SharkDom no-reply@sharkdom.com"
+      />
+
+      <label for="subject">Subject:</label>
+
+      <input type="text" id="subject" placeholder="Enter email subject" />
+
+      <label for="templateDescription">Template Description:</label>
+
+      <input
+        type="text"
+        id="templateDescription"
+        placeholder="Enter a short description of the email template"
+      />
+
+      <label for="heading" style="margin-top: 20px">Main Heading:</label>
+
+      <input type="text" id="heading" placeholder="Enter the email heading" />
+
+      <label for="content">Content:</label>
+
+      <textarea
+        id="content"
+        rows="4"
+        placeholder="This content will contain <java> tag"
+      ></textarea>
+
+      <label for="imageURL">GCP Image URL:</label>
+
+      <input
+        type="text"
+        id="imageURL"
+        placeholder="https://storage.googleapis.com/sharkdom_resources/..."
+      />
+
+      <button onclick="generateAndSave()">Generate and Save</button>
+
+      <div id="output"></div>
+    </div>
+
+    <script>
+      const firebaseConfig = {
+        apiKey: 'AIzaSyByjCvnRZcaCqWutzLmku0Vk1q_9kwnNRA',
+        authDomain: 'testemailstorage-42159.firebaseapp.com',
+        databaseURL:
+          'https://testemailstorage-42159-default-rtdb.firebaseio.com',
+        projectId: 'testemailstorage-42159',
+        storageBucket: 'testemailstorage-42159.firebasestorage.app',
+        messagingSenderId: '50617818372',
+        appId: '1:50617818372:web:21c4b270ede63e7e0b8451'
+      }
+      firebase.initializeApp(firebaseConfig)
+
+      const db = firebase.firestore()
+
+      function generateAndSave() {
+        const docId = document.getElementById('docId').value.trim()
+
+        const heading = document.getElementById('heading').value
+
+        const content = document.getElementById('content').value
+
+        const imageURL = document.getElementById('imageURL').value
+
+        const sender = document.getElementById('sender').value.trim()
+
+        const subject = document.getElementById('subject').value.trim()
+
+        const templateDescription = document
+          .getElementById('templateDescription')
+          .value.trim()
+
+        if (!docId) {
+          alert('Please enter a document ID.')
+
+          return
+        }
+
+        const html = `
+
+<!DOCTYPE html> <html lang="en"> <head>   <meta charset="UTF-8" />   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>   <title>Sharkdom Invitation</title>   <style>     body {       margin: 0;       padding: 0;       font-family: Arial, sans-serif;              background-size: cover;     }      .email-container {       width: 600px;       margin: 0 auto;       background: url('https://storage.googleapis.com/sharkdom_resources/new_stripe_back.png') repeat;     }      .top-section {             background-size: cover;       text-align: center;       padding: 40px 20px 60px;     }      .logo-pill {       background: white;       padding: 20px 40px;       border-radius: 50px;       display: inline-block;       box-shadow: 0 8px 0 #1d2746;     }      .logo-pill img {       height: 32px;     }      .heading {       font-size: 25px;       font-weight: 400;       color: #2f2f2f;       margin: 30px 0 10px;       text-align: left;     }      .subheading {       font-size: 16px;       color: #555;      line-height: 1.8;       margin-top: 20px;       text-align: left;     }      .invite-btn {       background-color: #2F52EB;       color: white;       padding: 14px 36px;       font-size: 16px;       font-weight: bold;       border-radius: 30px;       text-decoration: none;       display: inline-block;       margin-top: 20px;       box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);     }      .card {       background-color: white;       border-radius: 10px;       box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);       padding: 20px;       margin: 40px 20px;       position: relative;       display: flex;       justify-content: space-between;       align-items: center;     }      .card-content {       width: 60%;     }      .card h3 {       margin: 0 0 10px;       font-size: 20px;       color: #222;     }      .card p {       font-size: 14px;       color: #444;       margin-bottom: 12px;     }      .card a {       font-size: 14px;       font-weight: bold;       color: #2F52EB;       text-decoration: none;     }      .card-image {       width: 35%;     }      .card-image img {       width: 100%;       border-radius: 6px;     }      .badge {       position: absolute;       top: -10px;       right: -10px;       width: 70px;     }        .footer-wrapper {     position: relative;            }    .footer {     background-color: white;     text-align: center;     padding: 20px 20px 25px;     position: relative;     z-index: 2;     margin-top: -5px;      background: url('https://storage.googleapis.com/sharkdom_resources/white_curve.png') repeat;   }        .footer table {       width: 100%;     }      .footer-logo {       font-weight: bold;       font-size: 20px;       margin-bottom: 5px;     }      .footer-desc {       font-size: 14px;       color: #555;     }      .social-icons {       text-align: right;     }      .social-icons img {       width: 24px;       margin: 0 6px;     }      .footer-links {       margin-top: 25px;       text-align: left;     }      .footer-links a {       margin: 0 12px;       color: #2F52EB;       text-decoration: none;       font-weight: 500;       text-align: left;     }      .copyright {       margin-top: 20px;       font-size: 14px;       color: #666;       text-align: left;     }  .plan-details-container {     background-color: #ffffff;     border-radius: 12px;     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);     padding: 24px;     margin: 40px 20px;     font-family: Arial, sans-serif;   }    .plan-details-title {     font-size: 20px;     font-weight: bold;     color: #2F52EB;     margin-bottom: 16px;     border-bottom: 1px solid #eee;     padding-bottom: 8px;   }    .plan-detail {     display: flex;     justify-content: space-between;     margin: 12px 0;     font-size: 15px;     color: #444;   }    .plan-detail label {     font-weight: 600;     color: #222;     flex: 1;   }    .plan-detail span {     flex: 2;     text-align: right;     font-weight: 500;   }          @media (max-width: 620px) {       .email-container {         width: 100% !important;       }       .card {         flex-direction: column;         text-align: center;       }       .card-content, .card-image {         width: 100%;       }       .badge {         width: 50px;       }        .plan-detail {       flex-direction: column;       align-items: flex-start;     }      .plan-detail span {       text-align: left;       margin-top: 4px;     }           }   </style> </head> <body>
+
+<div class="email-container">     <!-- TOP -->     <div class="top-section">       <img src="https://storage.googleapis.com/sharkdom_resources/Group 1000004999.png" alt="Sharkdom Logo" />
+
+<div class="heading">${heading}</div>
+
+<div class="subheading">${content}</div>        </div>      <table width="100%" cellpadding="0" cellspacing="0" border="0">   <tr>     <td style="padding: 20px;">       <table width="100%" cellpadding="0" cellspacing="0" style="background-color: #ffffff; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); text-align: center;">         <tr>           <td style="padding: 24px;">             <div style="font-size: 18px; font-weight: 500; color: #333;  padding-bottom: 12px; margin-bottom: 12px;">               <span style="border-top: 1px solid #ccc; display: inline-block; width: 20%; vertical-align: middle; margin-right: 10px;"></span>               Let’s get started               <span style="border-top: 1px solid #ccc; display: inline-block; width: 20%; vertical-align: middle; margin-left: 10px;"></span>             </div>               <table width="100%" cellpadding="0" cellspacing="0" style="margin-bottom: 24px;">               <tr>                 <td width="60%" style="text-align: left; padding-right: 10px;">                   <h3 style="font-size: 18px; margin: 0 0 6px; color: #222;">Quickly add teammates</h3>                   <p style="font-size: 14px; color: #555; margin: 0 0 10px;">                     Share this link to easily invite people to your team to join your workspace                   </p>                   <a href="#" style="color: #2F52EB; font-size: 14px; font-weight: bold; text-decoration: none;">                     Invite teammates →                   </a>                 </td>                 <td width="40%" style="text-align: right;">                   <img src="${imageURL}" width="100%" style="border-radius: 6px;" alt="Add teammates image" />                 </td>               </tr>             </table>              <!-- Block 2 -->             <table width="100%" cellpadding="0" cellspacing="0">               <tr>                 <td width="60%" style="text-align: left; padding-right: 10px;">                   <h3 style="font-size: 18px; margin: 0 0 6px; color: #222;">Add your partner match</h3>                   <p style="font-size: 14px; color: #555; margin: 0 0 10px;">                     Your customer persona for finding your IPP (Ideal Partner Profile) is just 2 clicks                   </p>                   <a href="#" style="color: #2F52EB; font-size: 14px; font-weight: bold; text-decoration: none;">                     Open partner match                   </a>                 </td>                 <td width="40%" style="text-align: right;">                   <img src="${imageURL}" width="100%" style="border-radius: 6px;" alt="Partner match image" />                 </td>               </tr>             </table>            </td>         </tr>       </table>     </td>   </tr> </table>
+
+<div class="footer-wrapper">
+
+<div class="footer">
+
+<table cellpadding="0" cellspacing="0" width="100%">       <tr>         <td align="left">          <div style="text-align: left; margin-top: 60px; margin-bottom: 20px;">   <img src="https://storage.googleapis.com/sharkdom_resources/Group.png" alt="Sharkdom Logo" style="height: 32px; display: block; margin-bottom: 6px;" /> <div class="footer-desc">Your GTM platform for partnerships</div>    </div>         </td>         <td align="right" class="social-icons">           <img src="https://img.icons8.com/ios-filled/24/1A1A1A/facebook-new.png" alt="Facebook" />           <img src="https://img.icons8.com/ios-filled/24/1A1A1A/twitter.png" alt="Twitter" />           <img src="https://img.icons8.com/ios-filled/24/1A1A1A/youtube-play.png" alt="YouTube" />           <img src="https://img.icons8.com/ios-filled/24/1A1A1A/linkedin.png" alt="LinkedIn" />         </td>       </tr>     </table>         <table cellpadding="0" cellspacing="0" width="100%">       <tr>         <td align="left">           <div class="footer-links">             <a href="#">Blog</a>             <a href="#">Help centre</a>             <a href="#">Policies</a>           </div>         </td>                </tr>     </table>      <div class="copyright">       © 2025 Kalasa Agile Private Limited, Inc. All rights reserved     </div>   </div> </div>    </div>
+
+</body> </html>
+
+`
+
+        const templateData = {
+          sender: sender,
+
+          subject: subject,
+
+          templateDescription: templateDescription,
+
+          bodyHtml: html
+        }
+
+        db.collection('EmailTemplates')
+          .doc(docId)
+          .set(templateData)
+
+          .then(() => {
+            document.getElementById('output').textContent =
+              'Email template saved to Firestore with Template Code : ' + docId
+          })
+
+          .catch((error) => {
+            document.getElementById('output').textContent =
+              ' Error saving template: ' + error.message
+          })
+      }
+    </script>
+  </body>
+</html>
