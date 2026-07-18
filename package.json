@@ -1,12 +1,1 @@
-{
-  "private": true,
-  "scripts": {
-    "dev": "pnpm --dir sharkdom-Frontend-dev dev",
-    "start": "pnpm --dir sharkdom-Frontend-dev start",
-    "build": "pnpm --dir sharkdom-Frontend-dev build",
-    "lint": "pnpm --dir sharkdom-Frontend-dev lint"
-  },
-  "dependencies": {
-    "typescript": "^7.0.2"
-  }
-}
+{"type": "commonjs"}
