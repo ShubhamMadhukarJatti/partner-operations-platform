@@ -1,0 +1,20 @@
+Assuming the two pages are /explore-beta/[id] and /settings/profile-beta: yes, there are still some data-like hardcoded parts. I’m ignoring fixed design assets/copy and focusing on things that look like real product data.
+
+Main places that still need backend/API support:
+
+Own-profile completion on explore-beta is fully hardcoded: 73%, 7.3/10, 2,847, 145, #12, and the quick-action list in ExploreBetaClient.tsx (line 286) and ExploreBetaClient.tsx (line 2209). This wants a profile completion / visibility analytics API.
+Certifications are still placeholder-only on both pages. The fake certification records are generated in adapters.ts (line 202), the static explore sidebar tiles are in ExploreBetaClient.tsx (line 90), and the editor is still visual-only in ProfileBetaClient.tsx (line 1210). This needs certification read/write APIs.
+Banner upload in profile-beta is still visual-only. The editor always shows the fallback banner and toast in ProfileBetaClient.tsx (line 869). Since explore-beta already reads org.bannerUrl, this needs banner upload + persistence on the org model.
+Partner-program summary metrics on explore-beta still fake fallback to 92%, 3 mins, and 12, and benefits are fixed strings in ExploreBetaClient.tsx (line 1382). If those are meant to be real, the public partner-program summary API needs those fields.
+Review badges in the explore header are static G2/Capterra/Trustpilot values in ExploreBetaClient.tsx (line 1126). If they should reflect real ratings, that needs a reviews/ratings API.
+Places where an API already exists, but the UI still invents fallback data:
+
+Market Intelligence has a real API, but if it comes back thin, the adapter invents Enterprise Automation, 847, and API / Automation / AWS in adapters.ts (line 578). That may not need a new endpoint, but it does need either a stricter response contract or an empty state.
+Similar Profiles has a real recommendations API, but there is still a mock fallback array in ExploreBetaClient.tsx (line 117). No new API needed there unless the current one is insufficient.
+Match cards still fall back to invented categories/scores (90, 86, Technology Integration, Enterprise Partnerships) when persona data is absent in ExploreBetaClient.tsx (line 1144). That is probably a contract/UX decision rather than a brand-new endpoint.
+Already API-backed enough:
+
+Resources on both pages.
+Pricing on both pages.
+Partner-program editing in profile-beta.
+If you want, I can turn this into a clean backend handoff with exact endpoint shapes for the remaining gaps.

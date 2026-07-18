@@ -1,0 +1,22 @@
+services:
+  web:
+    image: node:20-alpine
+    working_dir: /app
+    ports:
+      - "3000:3000"
+    env_file:
+      - .env.local
+    environment:
+      NODE_ENV: development
+      PORT: 3000
+      HOSTNAME: 0.0.0.0
+      # Required for HMR inside Docker on Mac (inotify doesn't cross the VM boundary)
+      WATCHPACK_POLLING: "true"
+      PNPM_HOME: /pnpm
+      PATH: /pnpm:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+    volumes:
+      - .:/app
+      # Isolate container's node_modules so the host mount doesn't overwrite them
+      - /app/node_modules
+      - /app/.next
+    command: sh -c "corepack enable && pnpm install --frozen-lockfile && pnpm dev"

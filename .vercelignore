@@ -1,0 +1,33 @@
+# Exclude unnecessary files from Vercel build to reduce memory usage
+node_modules
+.next
+out
+build
+coverage
+.git
+.idea
+.vscode
+*.log
+*.tsbuildinfo
+.DS_Store
+*.pem
+.env*.local
+.vercel
+
+# Exclude large documentation and guide files
+**/*.md
+!README.md
+docs/
+*.mdx.backup
+
+# Exclude test files
+**/*.test.*
+**/*.spec.*
+__tests__/
+tests/
+
+# Exclude backup files
+*.backup
+*.bak
+*~
+
