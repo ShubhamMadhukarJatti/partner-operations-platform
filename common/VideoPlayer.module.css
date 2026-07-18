@@ -1,0 +1,9 @@
+.videoContainer {
+  height: var(--video-height-base);
+}
+
+@media (min-width: 768px) {
+  .videoContainer {
+    height: var(--video-height-md);
+  }
+}
