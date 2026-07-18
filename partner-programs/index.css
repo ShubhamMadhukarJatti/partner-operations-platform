@@ -1,0 +1,18 @@
+.select-div button {
+  border-radius: 5px !important;
+}
+
+::-webkit-scrollbar {
+  width: 2px; /* width of the scrollbar */
+  height: 5px; /* height of the scrollbar */
+  background-color: #f5f5f5; /* background color of the scrollbar */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #ccc; /* color of the scrollbar handle */
+  border-radius: 2px; /* rounded corners for the handle */
+}
+
+::-webkit-scrollbar-track {
+  background-color: #f5f5f5; /* background color of the scrollbar track */
+}
