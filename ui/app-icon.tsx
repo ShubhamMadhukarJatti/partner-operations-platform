@@ -1,0 +1,51 @@
+import Image from 'next/image'
+import { IconPlus } from '@tabler/icons-react'
+
+import { cn } from '@/lib/utils'
+
+type AppType = 'trello' | 'notion' | 'plus'
+
+interface AppIconProps {
+  app: AppType
+  size?: number
+  className?: string
+}
+
+const AppIcon: React.FC<AppIconProps> = ({ app, size = 24, className }) => {
+  const iconClass = cn('flex items-center justify-center', className)
+
+  switch (app) {
+    case 'trello':
+      return (
+        <div className={iconClass}>
+          <svg width='24' height='24' viewBox='0 0 24 24' fill='none'>
+            <path
+              d='M21 0H3C1.343 0 0 1.343 0 3v18c0 1.657 1.343 3 3 3h18c1.657 0 3-1.343 3-3V3c0-1.657-1.343-3-3-3zM10.44 18.18c0 .795-.645 1.44-1.44 1.44H4.56c-.795 0-1.44-.645-1.44-1.44V5.4c0-.795.645-1.44 1.44-1.44H9c.795 0 1.44.645 1.44 1.44v12.78zm9.96-6.84c0 .795-.645 1.44-1.44 1.44H14.52c-.795 0-1.44-.645-1.44-1.44V5.4c0-.795.645-1.44 1.44-1.44h4.44c.795 0 1.44.645 1.44 1.44v5.94z'
+              fill='#0079BF'
+            />
+          </svg>
+        </div>
+      )
+    case 'notion':
+      return (
+        <div className={iconClass}>
+          <svg width='20' height='20' viewBox='0 0 24 24' fill='none'>
+            <path
+              d='M4.459 4.208c.746.606 1.026.56 2.428.466l13.215-.793c.28 0 .047-.28-.046-.326L17.86 1.968c-.42-.326-.981-.7-2.055-.607L3.01 2.295c-.466.046-.56.28-.374.466l1.823 1.447zm.793 3.08v13.904c0 .747.373 1.027 1.214.98l14.523-.84c.841-.046.935-.56.935-1.167V6.354c0-.606-.233-.933-.748-.887l-15.177.887c-.56.047-.747.327-.747.933zm14.337.745c.093.42 0 .84-.42.888l-.7.14v10.264c-.608.327-1.168.514-1.635.514-.748 0-.935-.234-1.495-.933l-4.577-7.186v6.952L12.21 19s0 .84-1.168.84l-3.222.186c-.093-.186 0-.653.327-.746l.84-.233V9.854L7.822 9.76c-.094-.42.14-1.026.793-1.073l3.456-.233 4.764 7.279v-6.44l-1.215-.139c-.093-.514.28-.887.747-.933l3.269-.186z'
+              fill='#000'
+            />
+          </svg>
+        </div>
+      )
+    case 'plus':
+      return (
+        <div className={iconClass}>
+          <IconPlus size={size} className='text-text-60' />
+        </div>
+      )
+    default:
+      return null
+  }
+}
+
+export default AppIcon
